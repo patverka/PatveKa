@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">PatverKa</string>
+    <string name="driver">Driver</string>
+    <string name="customer">Customer</string>
+
+    <!--Categories-->
+    <string name="categories">Categories</string>
+    <string name="truck">Truck</string>
+    <string name="concrete_mixer">Concrete Mixer</string>
+    <string name="tow_truck">Tow Truck</string>
+    <string name="dump_truck">Dump Truck</string>
+    <string name="excavator_caterpillar">Excavator Caterpillar</string>
+    <string name="wheeled_excavator">Wheeled Excavator</string>
+    <string name="bulldozer">Bulldozer</string>
+    <string name="gldon">Gldon</string>
+    <string name="manipulator">Manipulator</string>
+    <string name="water_car">Water Car</string>
+    <string name="gas_station">Gas Station</string>
+    <string name="car_tower">Car Tower</string>
+    <!--endCategories-->
+</resources>

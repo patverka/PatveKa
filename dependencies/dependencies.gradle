@@ -1,0 +1,43 @@
+ext {
+
+    versionOfName = '1.0'
+    versionOfCode = 8
+
+    versionOfCompileSdk = 33
+    versionOfMinSdk = 22
+    versionOfTargetSdk = 33
+    versionOfBuildTools = '30.0.3'
+
+    versions = [
+            "androidGradlePluginVersion": '7.2.2',
+            "kotlinVersion"             : '1.7.21',
+            "navigationVersion"         : '2.5.3',
+            "koinVersion"               : '3.3.0',
+            "roomVersion"               : "2.5.0",
+            "glide"                     : "4.11.0"
+    ]
+
+    classpathDependencies = [
+            gradle            : "com.android.tools.build:gradle:${versions.androidGradlePluginVersion}",
+            kotlinGradlePlugin: "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlinVersion}",
+            navigationSafeArgsGradlePlugin: "androidx.navigation:navigation-safe-args-gradle-plugin:${versions.navigationVersion}"
+    ]
+    roomDependencies = [
+            roomRuntime: "androidx.room:room-runtime:${versions.roomVersion}",
+            roomKtx    : "androidx.room:room-ktx:${versions.roomVersion}"
+    ]
+    glideDependencies = [
+            glide   : "com.github.bumptech.glide:glide:${versions.glide}",
+            compiler: "com.github.bumptech.glide:compiler:${versions.glide}"
+    ]
+    navigationDependencies = [
+            navigationFragment            : "androidx.navigation:navigation-fragment-ktx:${versions.navigationVersion}",
+            navigationUi                  : "androidx.navigation:navigation-ui-ktx:${versions.navigationVersion}",
+    ]
+    koinDependencies = [
+            koinCore       : "io.insert-koin:koin-android:${versions.koinVersion}",
+            koinCompat     : "io.insert-koin:koin-android-compat:${versions.koinVersion}",
+            koinWorkmanager: "io.insert-koin:koin-androidx-workmanager:${versions.koinVersion}",
+            koinNavigation : "io.insert-koin:koin-androidx-navigation:${versions.koinVersion}",
+    ]
+}

@@ -1,0 +1,29 @@
+buildscript {
+    ext.kotlin_version = "1.7.21"
+
+    apply from: 'dependencies/dependencies.gradle'
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath classpathDependencies.values()
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    repositories {
+        maven { url = 'https://jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

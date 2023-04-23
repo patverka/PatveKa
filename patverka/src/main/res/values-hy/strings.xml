@@ -1,0 +1,17 @@
+<resources>
+    <string name="driver">Վարորդ</string>
+    <string name="customer">Պատվիրատու</string>
+    <string name="categories">Կատեգորիաներ</string>
+    <string name="truck">Բեռնատար</string>
+    <string name="concrete_mixer">Բետոնամղիչ</string>
+    <string name="tow_truck">Էվակուատոր</string>
+    <string name="dump_truck">Ինքնաթափ մեքենա</string>
+    <string name="excavator_caterpillar">Էքսկավատոր Թրթուրավոր</string>
+    <string name="wheeled_excavator">Էքսկավատոր Անիվավոր</string>
+    <string name="bulldozer">Բուլդոզեր</string>
+    <string name="gldon">Գլդոն</string>
+    <string name="manipulator">Մանիպուլյատոր</string>
+    <string name="water_car">Ջրատար Մեքենա</string>
+    <string name="gas_station">Բենզատար</string>
+    <string name="car_tower">Ավտոաշտարակ</string>
+</resources>

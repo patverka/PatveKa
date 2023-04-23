@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/patverKaWelcomeFragment">
+
+    <fragment
+        android:id="@+id/patverKaWelcomeFragment"
+        android:name="com.patverka.patverka.welcome.prezentation.PatverKaWelcomeFragment"
+        android:label="PatverKaWelcomeFragment" />
+
+    <action
+        android:id="@+id/action_global_patverKaWelcomeFragment"
+        app:destination="@id/patverKaWelcomeFragment" />
+
+    <fragment
+        android:id="@+id/patverKaCategoriesFragment"
+        android:name="com.patverka.patverka.category.prezentation.PatverKaCategoriesFragment"
+        android:label="PatverKaCategoriesFragment" />
+
+    <action
+        android:id="@+id/action_global_patverKaCategoriesFragment"
+        app:destination="@id/patverKaCategoriesFragment" />
+</navigation>
